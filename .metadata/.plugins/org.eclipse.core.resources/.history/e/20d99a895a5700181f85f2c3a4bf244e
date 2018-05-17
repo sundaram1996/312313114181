@@ -1,0 +1,19 @@
+package com.jersey.helloWorld;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.core.MediaType;
+
+@Path("/cts")
+public class Hellojersey {
+	@GET
+	@Path("/hello")
+	//@produce(MediaType.TEXT_PLAIN)
+	public String sayhello()
+	{
+		String message="Hello from jersey";
+		return message;
+	}
+
+
+}
