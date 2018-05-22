@@ -1,0 +1,5 @@
+package org.o7planning.restfulcrud.dao;
+
+public class EmployeeDAO {
+
+}

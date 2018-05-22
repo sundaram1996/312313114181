@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
 
-      <Context docBase="aip" path="/aip" reloadable="true" source="org.eclipse.jst.jee.server:aip"/><Context docBase="CRUDproect" path="/CRUDproect" reloadable="true" source="org.eclipse.jst.jee.server:CRUDproect"/><Context docBase="formparam" path="/formparam" reloadable="true" source="org.eclipse.jst.jee.server:formparam"/><Context docBase="matrixparam" path="/matrixparam" reloadable="true" source="org.eclipse.jst.jee.server:matrixparam"/></Host>
+      <Context docBase="aip" path="/aip" reloadable="true" source="org.eclipse.jst.jee.server:aip"/><Context docBase="CRUDproect" path="/CRUDproect" reloadable="true" source="org.eclipse.jst.jee.server:CRUDproect"/><Context docBase="formparam" path="/formparam" reloadable="true" source="org.eclipse.jst.jee.server:formparam"/><Context docBase="matrixparam" path="/matrixparam" reloadable="true" source="org.eclipse.jst.jee.server:matrixparam"/><Context docBase="JAXRSJsonCRUDExample" path="/JAXRSJsonCRUDExample" reloadable="true" source="org.eclipse.jst.jee.server:JAXRSJsonCRUDExample"/><Context docBase="RESTfulCRUD" path="/RESTfulCRUD" reloadable="true" source="org.eclipse.jst.jee.server:RESTfulCRUD"/></Host>
     </Engine>
   </Service>
 </Server>
